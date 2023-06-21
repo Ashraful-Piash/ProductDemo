@@ -4,7 +4,8 @@ public class Product {
     private String place;
     private int warranty;
 
-    public Product() {
+    public Product(){
+        
     }
 
     public Product(String name, String type, String place, int warranty) {
