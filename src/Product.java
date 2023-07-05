@@ -46,4 +46,14 @@ public class Product {
     public void setWarranty(int warranty) {
         this.warranty = warranty;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", place='" + place + '\'' +
+                ", warranty=" + warranty +
+                '}';
+    }
 }
