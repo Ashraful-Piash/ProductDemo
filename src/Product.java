@@ -5,7 +5,7 @@ public class Product {
     private int warranty;
 
     public Product(){
-        
+
     }
 
     public Product(String name, String type, String place, int warranty) {
