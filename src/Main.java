@@ -11,7 +11,13 @@ public class Main {
         service.addProduct(new Product("wallet","leather","pocket",2030));
 
        List<Product> products = service.getAllProducts();
-        System.out.println(products);
+        for(Product p : products){
+            System.out.println(p);
+        }
+        System.out.println("A particular product: ");
+
+        Product p = service.getProduct("Vivo");
+        System.out.println(p);
 
     }
 }
