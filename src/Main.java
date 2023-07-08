@@ -15,6 +15,7 @@ public class Main {
         service.addProduct(new Product("book", "boi", "brown table", 2050));
         service.addProduct(new Product("pad", "table pad", "black table", 2019));
         service.addProduct(new Product("hat", "tupi", "black table", 2034));
+        service.addProduct(new Product("khata","note khata","white drawer",2023));
 
         List<Product> products = service.getAllProducts();
         for (Product p : products) {
