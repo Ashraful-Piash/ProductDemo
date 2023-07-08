@@ -7,6 +7,9 @@ public class Product {
     public Product(){
 
     }
+    public Product(String name){
+        this.name = name;
+    }
 
     public Product(String name, String type, String place, int warranty) {
         this.name = name;
